@@ -1,0 +1,29 @@
+*{
+    background-color: black;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+
+}
+
+.headline{
+padding: 40px;
+animation:fade 5s linear infinite
+}
+
+@keyframes fade{
+    from{
+        font-size: 100px;
+        color:white
+    }
+    to{
+    font-size: 800px;
+    color:transparent;
+   }
+}
